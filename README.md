@@ -52,4 +52,4 @@ Happy calculating! 🧮🌟
 For inquiries or feedback, you can reach me at:
 
 - Email: [khumalophilani580@gmail.com](mailto:your.email@example.com)
-- LinkedIn: [https://www.linkedin.com/in/nhlakanipho-philani-khumalo-679726224/](https://www.linkedin.com/in/yourusername/nhlakanipho-philani-khumalo-679726224/)
+- LinkedIn: [https://www.linkedin.com/in/nhlakanipho-philani-khumalo-679726224/](https://www.linkedin.com/in/nhlakanipho-philani-khumalo-679726224/)
