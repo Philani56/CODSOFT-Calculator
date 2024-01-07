@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Set viewport for responsive design -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title of the webpage -->
+        <title>Calculator</title>
+        <!-- Link to external CSS file for styling -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Calculator container -->
+        <div class="container">
+            <div class="calculator">
+                <!-- Calculator form -->
+                <form>
+                    <!-- Display area for input/output -->
+                    <div class="display">
+                        <input type="text" name="display">
+                    </div>
+                    <!-- Operator buttons and special functions -->
+                    <div>
+                        <!-- Clear input -->
+                        <input type="button" value="AC" onclick="display.value = '' " class="operator">
+                        <!-- Delete last character -->
+                        <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
+                        <!-- Decimal point -->
+                        <input type="button" value="." onclick="display.value += '.' " class="operator">
+                        <!-- Division operator -->
+                        <input type="button" value="/" onclick="display.value += '/' " class="operator"> 
+                    </div>
+                    <!-- Number buttons and multiplication operator -->
+                    <div>
+                        <input type="button" value="7" onclick="display.value += '7' ">
+                        <input type="button" value="8" onclick="display.value += '8' ">
+                        <input type="button" value="9" onclick="display.value += '9' ">
+                        <input type="button" value="*" onclick="display.value += '*' " class="operator">
+                    </div>
+                    <!-- Number buttons and subtraction operator -->
+                    <div>
+                        <input type="button" value="4" onclick="display.value += '4' ">
+                        <input type="button" value="5" onclick="display.value += '5' ">
+                        <input type="button" value="6" onclick="display.value += '6' ">
+                        <input type="button" value="-" onclick="display.value += '-' " class="operator">
+                    </div>
+                    <!-- Number buttons and addition operator -->
+                    <div>
+                        <input type="button" value="1" onclick="display.value += '1' ">
+                        <input type="button" value="2" onclick="display.value += '2' ">
+                        <input type="button" value="3" onclick="display.value += '3' ">
+                        <input type="button" value="+" onclick="display.value += '+' " class="operator">
+                    </div>
+                    <!-- Number buttons, double zero, and equal button -->
+                    <div>
+                        <input type="button" value="00" onclick="display.value += '00' ">
+                        <input type="button" value="0" onclick="display.value += '0' ">
+                        <!-- Evaluate and display result -->
+                        <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- Code Attribution -->
+
+<!-- Author: GreatStack -->
+<!-- Title: Make A Calculator Using HTML CSS And JavaScript | Build Calculator using JavaScript | JavaScript Project for beginners -->
+<!-- Year:  22 Dec 2022 -->
+<!-- URL: https://youtu.be/cGgLHJGyS34?si=dc_cYKSn-AssMI_l -->

@@ -1,0 +1,78 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #3e4444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Calculator styling */
+.calculator {
+    background: #9BB7D4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styling for calculator form input elements */
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(225, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Styling for the display area within the form */
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+/* Styling for the display input element */
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+/* Styling for the equal button */
+form input.equal {
+    width: 145px;
+    color: white;
+}
+
+/* Styling for operator buttons */
+form input.operator {
+    color: white;
+}
+
+
+/* Code Attribution */
+
+/* Author: GreatStack */
+/* Title:  Make A Calculator Using HTML CSS And JavaScript | Build Calculator using JavaScript | JavaScript Project for beginners */
+/* Year:   22 Dec 2022 */
+/* URL:    https://youtu.be/cGgLHJGyS34?si=dc_cYKSn-AssMI_l */
+
+/* Author: W3Schools */
+/* Title: Color Palettes */
+/* Year: 2021 */
+/* URL:  https://www.w3schools.com/colors/colors_palettes.asp */
